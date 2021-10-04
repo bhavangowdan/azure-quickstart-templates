@@ -259,7 +259,7 @@
         },
         {
             "type": "Microsoft.Authorization/roleAssignments",
-            "apiVersion": "2018-07-01",
+            "apiVersion": "2016-06-01",
             "name": "[guid(concat(variables('roleAssignmentName'), copyIndex(1)))]",
             "dependsOn": [
                 "createVms"
